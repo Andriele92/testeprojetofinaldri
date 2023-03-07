@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+form {
+  text-align: center;
+}
+input{
+  margin-bottom: 10px;
+}
+.card-title{
+  text-align: center;
+}
+.centralizar{
+  text-align: center;
+}
+
+footer {
+  /* border: 2px solid red; */
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+body {
+  min-height: 100%;
+   
+}
+.bg-azul {
+  background-color: #05071d;
+}
+.principal{
+  height: 1000px;
+}

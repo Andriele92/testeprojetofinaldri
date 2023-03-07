@@ -1,0 +1,31 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h1 class="card-title">Cadastro de consulta</h1>
+                    <form action="controleconsulta/insertconsulta" method="POST">
+                       
+                        <div class="form-group">
+                            <label for="input1">Nome do Pet:</label>
+                            <input type="text" name="pet" class="form-control shadow" id="input2"
+                                placeholder="Digite o nome do pet">
+                        </div>
+                        <div class="form-group">
+                            <label for="input2">Nome do veterinario:</label>
+                            <input type="text" name="nome_vet" class="form-control shadow" id="input3"
+                                placeholder="Digite o nome do veterinario">
+                        </div>
+                        <div class="form-group">
+                            <label for="input3">Dono do pet:</label>
+                            <input type="text" name="dono_pet" class="form-control shadow" id="input4"
+                                placeholder="Digite o nome do dono do pet">
+                        </div>
+                    
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

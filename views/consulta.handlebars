@@ -1,0 +1,19 @@
+<h1 class="centralizar">Lista de consultas</h1>
+<table class="table">
+    {{#each listarConsulta}}
+    <thead>
+        <tr>
+            <th>pet</th>
+            <th>Nome do veterinario</th>
+            <th>Nome do Dono do pet</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{pet}}</td>
+            <td>{{nome_vet}}</td>
+            <td>{{dono_pet}}</td>
+        </tr>
+    </tbody>
+    {{/each}}
+</table>
